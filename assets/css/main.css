@@ -1,0 +1,17 @@
+#app {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 2em;
+}
+
+.main h1 {
+    margin-bottom: 3em;
+    font-size: 2.6em;
+    font-weight: bold;
+}

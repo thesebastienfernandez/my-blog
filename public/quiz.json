@@ -1,0 +1,33 @@
+{
+    "title": "Quiz biohacking personnel",
+    "minimum_score": 4,
+    "succes_message": "Bravo, si tu appliques cette routine, tu es sur la bonne voie pour t'améliorer",
+    "failure_message": "Insuffisant pour être durablement en bonne santé, essaie donc à nouveau",
+    "questions": [
+        {
+            "question": "Quelle activité physique est la plus efficace pour optimiser la solidité osseuse ?",
+            "choices": ["la natation", "la course à pied", "le ping-pong", "la musculation"],
+            "good_answer": "la musculation"
+        },
+        {
+            "question": "Quel régime alimentaire est le plus favorable à une meilleure santé",
+            "choices": ["le régime crétois", "le régime végan", "le régime fast-food", "le régime pauvre en graisses"],
+            "good_answer": "le régime crétois"
+        },
+        {
+            "question": "Quelle activité n'améliore pas votre sommeil profond ?",
+            "choices": ["le bain chaud", "dormir à heures régulières", "séance de relaxation", "lire sur son portable"],
+            "good_answer": "lire sur son portable"
+        },
+        {
+            "question": "Combien de fois par jour les dentistes recommandent-ils de se brosser les dents ?",
+            "choices": ["0", "1", "2", "3"],
+            "good_answer": "2"
+        },
+        {
+            "question": "quel aliment est le plus transformé ?",
+            "choices": ["la pomme pelée", "le carpaccio", "le sel blanc", "le lait cru"],
+            "good_answer": "le sel blanc"
+        }
+]
+}
