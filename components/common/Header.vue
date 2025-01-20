@@ -24,11 +24,18 @@ nav {
 }
 
 nav a {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
     color: #ecf0f1;
 }
 
 nav a:hover{
-    color: black;
+    color: #2c3e50;
     text-decoration: underline;
 }
 

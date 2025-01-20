@@ -7,11 +7,30 @@
 .main {
     display: flex;
     flex-direction: column;
-    margin: 4em 2em;
+    padding: 4em 2em;
+}
+
+h1, h2 {
+    color: #2c3e50;
 }
 
 .main h1 {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     font-size: 2.6em;
     font-weight: bold;
+}
+
+article {
+    margin-bottom: 1em;
+}
+
+article h2 {
+    margin-bottom: 0.8em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+article p {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
