@@ -28,7 +28,7 @@ const classes = computed(() => ({
 }
 .right {
     opacity: 1;
-    color: green;
+    color: #2ecc71;
 }
 .wrong {
     opacity: 1;

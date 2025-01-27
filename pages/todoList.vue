@@ -7,9 +7,9 @@
             <Modal label="Ajouter une tâche" title="" content="" type="" @validated="(title, content, type) => addTodo(title, content, type)" />
             <div id="container">
                 <section>
-                    <h2>Travail</h2>
+                    <h2>Routine du lever</h2>
                     <ul v-if="todos">
-                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'work')" :key="todo.id">
+                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'matin')" :key="todo.id">
                             <Todo
                                 :title="todo.title"
                                 :content="todo.content"
@@ -25,9 +25,9 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Maison</h2>
+                    <h2>Séance(s) de la journée</h2>
                     <ul v-if="todos">
-                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'home')" :key="todo.id">
+                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'jour')" :key="todo.id">
                             <Todo
                                 :title="todo.title"
                                 :content="todo.content"
@@ -43,9 +43,9 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>Biohacks</h2>
+                    <h2>Routine avant coucher</h2>
                     <ul v-if="todos">
-                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'biohack')" :key="todo.id">
+                        <li v-for="(todo, index) in todos.list.filter(todo => todo.type === 'soir')" :key="todo.id">
                             <Todo
                                 :title="todo.title"
                                 :content="todo.content"
@@ -127,6 +127,7 @@ const addTodo = (title, content, type) => {
 <style scoped>
 #container {
     margin: 0 auto;
+    margin-top: 2em;
     display: flex;
     width: 100%;
     height: 600px;

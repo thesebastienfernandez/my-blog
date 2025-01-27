@@ -1,45 +1,45 @@
 {
     "list":[
         {
-            "title": "mon premier todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Ménage du matin",
+            "content": "Aérer la maison + faire le lit",
             "date": "2024-12-11T10:48:00.000Z",
-            "type": "work",
+            "type": "matin",
             "id": 0
         },
         {
-            "title": "mon deuxième todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Me booster",
+            "content": "Prendre un café vert",
             "date": "2024-12-13T10:48:00.000Z",
-            "type": "work",
+            "type": "matin",
             "id": 1
         },
         {
-            "title": "mon troisième todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Consulter mes messages",
+            "content": "Lire mes mails + répondre à certains",
             "date": "2024-12-14T10:48:00.000Z",
-            "type": "home",
+            "type": "matin",
             "id": 2
         },
         {
-            "title": "mon quatrième todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Séance de sport",
+            "content": "Musculation + étirements",
             "date": "2024-12-16T10:48:00.000Z",
-            "type": "work",
+            "type": "jour",
             "id": 3
         },
         {
-            "title": "mon cinquième todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Ménage du soir",
+            "content": "Vaisselle et linge",
             "date": "2024-12-18T10:48:00.000Z",
-            "type": "home",
+            "type": "soir",
             "id": 4
         },
         {
-            "title": "mon sixième todo",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices facilisis velit, ut euismod nisl. Morbi imperdiet cursus urna, sed ullamcorper velit tincidunt et. Donec in iaculis velit, a commodo augue. Integer consequat, purus imperdiet volutpat eleifend, neque arcu pellentesque velit, et gravida tellus turpis eget purus. Donec dictum, mi sit amet cursus convallis, magna dui eleifend risus, lacinia commodo nibh ex sed tellus. Etiam quis est ante. Vivamus elementum magna vitae semper lobortis. In diam turpis, viverra at euismod vel, finibus et nulla. Nunc leo urna, dictum sed risus eget, tincidunt blandit nunc.",
+            "title": "Se relaxer",
+            "content": "Tisane calmante + méditation",
             "date": "2024-12-19T10:48:00.000Z",
-            "type": "biohack",
+            "type": "soir",
             "id": 5
         }
     ]

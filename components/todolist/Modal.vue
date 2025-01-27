@@ -1,5 +1,5 @@
 <template>
-    <UButton :label="props.label" @click="open()" />
+    <UButton size="xl" color="black" :label="props.label" @click="open()" />
     <UModal v-model="isOpen">
         <UCard :ui="{ ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }">
             <template #header>
@@ -7,8 +7,10 @@
             </template>
             <UTextarea v-model="content" placeholder="Description" />
             <template #footer>
-                <USelect placeholder="Type de tâche" v-model="type" :options="categories"/>
-                <UButton label="Valider" @click="validation()" :disabled="!isValidable" />
+                <USelect placeholder="Moment de la routine" v-model="type" :options="categories"/>
+                <div class="validation">
+                <UButton block size="xl" label="Valider" @click="validation()" :disabled="!isValidable" />
+                </div>
             </template>
         </UCard>
     </UModal>
@@ -16,7 +18,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-const categories = ["work", "home", "biohack"]
+const categories = ["matin", "jour", "soir"]
 const props = defineProps({
     title: String,
     content: String,
@@ -43,3 +45,12 @@ const validation = () => {
 
 
 </script>
+<style scoped>
+.validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    margin-top: 2em;
+}
+</style>
